@@ -14,7 +14,7 @@ const PlayerCounter: React.FC<IPlayerCounter> = ({ name, value, setPlayerCount }
   };
 
   const onDecrease = () => {
-    if (value < 1) return;
+    if (value < 1) { return; }
 
     setPlayerCount(value - 1);
     saveData(name, (value - 1).toString());

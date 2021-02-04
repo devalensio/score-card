@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: colors.black,
     fontWeight: '500',
-  }
+  },
 });
 
 export default styles;

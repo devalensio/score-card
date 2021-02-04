@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   field: {
     flexDirection: 'row',
     borderWidth: 4,
-    borderColor: "#20232a",
+    borderColor: '#20232a',
     borderRadius: 6,
   },
   fieldButton: {
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   counterText: {
     fontSize: 32,
     fontWeight: '700',
-  }
+  },
 });
 
 export default styles;

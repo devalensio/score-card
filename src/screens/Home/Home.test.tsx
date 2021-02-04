@@ -21,14 +21,13 @@ describe('Home Screen', () => {
   });
 
   it('renders correctly', async () => {
-    await renderer.act(async () => { renderer.create(<Home />) });
+    await renderer.act(async () => { renderer.create(<Home />); });
   });
 
   it('calls asyncStorage getData with specific params when page is mounted', async () => {
-    await renderer.act(async () => { renderer.create(<Home />) });
+    await renderer.act(async () => { renderer.create(<Home />); });
 
     expect(getPlayerOne).toBeCalledWith('@player_one', 0);
     expect(getPlayerTwo).toBeCalledWith('@player_two', 0);
   });
 });
-

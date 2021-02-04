@@ -12,7 +12,7 @@ import { IPlayerCounter } from '../../interfaces';
 const props: IPlayerCounter = {
   name: '@player_test',
   value: 3,
-  setPlayerCount: (_) => { },
+  setPlayerCount: (_) => {},
 };
 
 describe('Home Screen', () => {
@@ -31,7 +31,7 @@ describe('Home Screen', () => {
   });
 
   it('should call save data with specific parameters when minus button is clicked', async () => {
-    const component = renderer.create(<PlayerCounter {...props} />)
+    const component = renderer.create(<PlayerCounter {...props} />);
 
     const button = component.root.findAllByType(TouchableOpacity);
 
@@ -48,7 +48,7 @@ describe('Home Screen', () => {
       value: 0,
     };
 
-    const component = renderer.create(<PlayerCounter {...customProps} />)
+    const component = renderer.create(<PlayerCounter {...customProps} />);
 
     const button = component.root.findAllByType(TouchableOpacity);
 
@@ -60,7 +60,7 @@ describe('Home Screen', () => {
   });
 
   it('should call save data with specific parameters when plus button is clicked', async () => {
-    const component = renderer.create(<PlayerCounter {...props} />)
+    const component = renderer.create(<PlayerCounter {...props} />);
 
     const button = component.root.findAllByType(TouchableOpacity);
 
