@@ -12,7 +12,7 @@ A boilerplate and reference implementation for mobile applications built with Re
 
 ## Technology
 
-- [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [React Native](https://facebook.github.io/react-native/)
+- [React](https://reactjs.org/) + [React Native](https://facebook.github.io/react-native/)
 - [React Navigation](https://reactnavigation.org/)
 - [React Async Storage](https://github.com/react-native-async-storage/async-storage)
 
