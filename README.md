@@ -29,6 +29,9 @@ A boilerplate and reference implementation for mobile applications built with Re
 # install dependencies
 yarn install
 
+# go to ios folder
+pod install
+
 # run on iOS device/simulator
 yarn ios
 
